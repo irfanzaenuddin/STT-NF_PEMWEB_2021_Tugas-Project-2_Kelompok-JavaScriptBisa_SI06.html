@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home | Sistem Informasi Seminar Tugas Akhir</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="dist/css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+    <form action="daftar_ta.html"></form>
+    <div class="wrapper">
+        <div class="container">
+            <img src="dist/img/logo.png" alt="" class="img-fluid mt-4" style="width: 70px; height: 70px;">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-8">
+                            <h5>SISTA</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="login.html">Home</a> |
+                        <a href="login.html">Jadwal</a> |
+                        <a href="login.html">Daftar Seminar</a> |
+                        <a href="login.html">Berita</a> |
+                        <a href="login.html">About</a>
+                    </div>
+                </div>
+                <hr> 
+                <div class="row">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-6">
+                       <h3 class="text-center">Login</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="form-group row mt-4">
+                                    <label for="staticEmail" class="col-sm-3 col-form-label">Username :</label>
+                                    <div class="col-sm-9 uname">
+                                        <input id="uname" type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-sm-3 col-form-label">Password :</label>
+                                    <div class="col-sm-9 pw">
+                                        <input id="pw" type="text" class="form-control" placeholder="password">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row mb-4">
+                                    <label for="staticEmail" class="col-sm-4 col-form-label"></label>
+                                        <button value="login" onclick="login()" class="btn btn-primary">Sign In</button>
+                                        <a href="register.html" class="col-sm-5 col-form-label">Register User</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">        
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+    <script src="dist/js/otentikasi_login.js"></script>
+    </form>
+</body>
+</html>

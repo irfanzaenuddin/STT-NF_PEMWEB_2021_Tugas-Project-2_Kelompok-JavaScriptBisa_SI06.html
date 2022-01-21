@@ -1,0 +1,62 @@
+body{
+    background-color: #E8ECEF;
+}
+hr{
+    height: 0px;
+    border: none;
+    border-top: 3px solid black;
+}
+.bs-breadcrumb{
+    
+        margin: 20px;        
+    }
+    /* Style to change separator  */
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: ">";
+    }
+
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+                
+    }
+    
+    legend.scheduler-border {
+        font-size: 1.1em !important;
+        text-align: left !important;
+        border:none;
+        width:140px;
+    }
+    fieldset.scheduler-border2 {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+                
+    }
+    
+    legend.scheduler-border2 {
+        font-size: 1.1em !important;
+        text-align: left !important;
+        border:none;
+        width:170px;
+    }
+    fieldset.scheduler-border3 {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+                
+    }
+    
+    legend.scheduler-border3 {
+        font-size: 1.1em !important;
+        text-align: left !important;
+        border:none;
+        width:190px;
+    }
